@@ -29,56 +29,62 @@
             </div>
         </div>
         <h1 class="d-flex justify-content-center">Usuários</h1>
-        <div class="title d-flex flex-row justify-content-between">
+        <div class="title d-flex justify-content-between">
+
+
+
             <div class="simp">
-                <h2>Pesquisa simples</h2>
-                <div class="form d-flex justify-content-center align-items-center mt-4">
-                    <input class=' form-control' type="number" placeholder="Informe o ID">
-                    <button>Pesquisar</button>
+                <div class="form">
+                    <h2>PESQUISA SIMPLES</h2>
+                    <input class='form-control' type="number" placeholder="Informe o ID">
+                    <button class="button">Pesquisar</button>
                 </div>
             </div>
-            <hr>
+
+
             <div class="avan">
-                <h2 class="d-flex justify-content-center">Avançada</h2>
-                <div class="d-flex justify-content-end px-3">
-                    <p class="fw-bold p-2">LISTAR SOMENTE USUÁRIOS DESATIVADOS</p>
+                <h2 class="d-flex justify-content-center">PESQUISA AVANÇADA</h2>
+                <div class="py-4 d-flex justify-content-end">
+                    <p class="px-3 pt-1 fw-bold">LISTAR SOMENTE USUÁRIOS DESATIVADOS</p>
                     <label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label>
                 </div>
-                <div class="form d-flex justify-content-center flex-column">
-                    <input type="number" placeholder="Id" class='form-control'>
-                    <div class="d-flex justify-content-between">
-                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Formas de Contato">
-                        <datalist id="datalistOptions">
-                            <option selected value="">Formas de Contato</option>
-                            <option value="E-mail"></option>
-                            <option value="Telefone"></option>
-                            <option value="CPF"></option>
-                            <option value="RG"></option>
-                        </datalist>
-                        <input type="text" placeholder="Contato" class="form-control">
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Acesso">
+                <div class="d-flex justify-content-center">
+                    <div class="form_avan">
+                        <input type="number" placeholder="ID" class='form-control'>
+                        <div class="d-flex justify-content-between">
+                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Formas de Contato">
+                            <datalist id="datalistOptions">
+                                <option selected value="">Formas de Contato</option>
+                                <option value="E-mail"></option>
+                                <option value="Telefone"></option>
+                                <option value="CPF"></option>
+                                <option value="RG"></option>
+                            </datalist>
+                            <input type="text" placeholder="Contato" class="form-control">
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Acesso">
+                            <datalist id="datalistOptions">
+                                <option value="Sim">Sim</option>
+                                <option value="Não">Não</option>
+                            </datalist>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Backoffice">
+                            <datalist id="datalistOptions">
+                                <option value="Sim">Sim</option>
+                                <option value="Não">Não</option>
+                            </datalist>
+                        </div>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="IDNetwork">
                         <datalist id="datalistOptions">
                             <option value="Sim">Sim</option>
                             <option value="Não">Não</option>
                         </datalist>
-                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Backoffice">
-                        <datalist id="datalistOptions">
-                            <option value="Sim">Sim</option>
-                            <option value="Não">Não</option>
-                        </datalist>
-                    </div>
-                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="IDNetwork">
-                    <datalist id="datalistOptions">
-                        <option value="Sim">Sim</option>
-                        <option value="Não">Não</option>
-                    </datalist>
-                    <button class="w-50 h-50">Pesquisar</button>
+                        <button class="button">Pesquisar</button>
                     
+                    </div>
                 </div>
             </div>
         </div>
