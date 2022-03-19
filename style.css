@@ -3,7 +3,7 @@ body {
     max-height: 100vh;
     max-width: 100vh;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: Poppins;
     
 }
 #site {
@@ -29,7 +29,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Rubik;
+    font-family: Poppins;
 }
 .text span {
     font-weight: bold;
@@ -69,8 +69,11 @@ span:hover {
 }
 .form h2{
     padding-bottom: 2rem;
-    font-family: Rubik;
+    font-family: Poppins;
     font-weight: bolder;
+}
+.form input {
+    font-family: Poppins;
 }
 .form .button {
     margin-top: 10px;
@@ -81,15 +84,19 @@ span:hover {
     border-radius: 7px;
     color: white;
     font-weight: bold;
-    border-bottom: 5px solid #30009f;
-    border-top: 2px solid #30009f;
-    border-left: 2px solid #30009f;
-    border-right: 5px solid #30009f;
-    
+    border-bottom: 3px solid #30009f;
+    border-top: 1px solid #30009f;
+    border-left: 1px solid #30009f;
+    border-right: 3px solid #30009f;
+    font-family: Poppins;
+    transition: .5s;
 }
 .form .button:hover {
-    color: #130040;
+    color: #50ff;
+    background-color: #ffff;
 }
+
+
 .avan {
     background-color: white;
     width: 35rem;
@@ -98,11 +105,11 @@ span:hover {
     margin-right: 1rem;
     border-radius: 10px;
     transform: translateY(-10%);
-
+    font-family: Poppins;
 }
 .avan h2{
     padding-top: 10px;
-    font-family: Rubik;
+    font-family: Poppins;
     font-weight: bolder;
 }
 .form_avan {
@@ -117,15 +124,19 @@ span:hover {
     border-radius: 7px;
     color: white;
     font-weight: bold;
-    border-bottom: 5px solid #30009f;
-    border-top: 2px solid #30009f;
-    border-left: 2px solid #30009f;
-    border-right: 5px solid #30009f;
+    border-bottom: 3px solid #30009f;
+    border-top: 1px solid #30009f;
+    border-left: 1px solid #30009f;
+    border-right: 3px solid #30009f;
+    font-family: Poppins;
+    transition: .5s;
 } 
 .form_avan .button:hover {
-    color: #130040;
+    color: #50ff;
+    background-color: #ffff;
 } 
 .form_avan input {
+    font-family: Poppins;
     margin: 2px;
 }
 
@@ -134,7 +145,7 @@ span:hover {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 50px;
     height: 35px;
     transform: translateX(-10%);
 }
@@ -176,9 +187,9 @@ span:hover {
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
   }
   .switch input { 
     opacity: 0;
