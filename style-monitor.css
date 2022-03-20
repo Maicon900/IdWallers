@@ -64,7 +64,47 @@ span:hover {
     height: 100%;
 }
 
+.desc {
+    font-family: Poppins;
+    font-size: 2rem;
+    color: white;
+}
+
+.search {
+    width: 70%;
+}
 .simp {
+    width: 360px;
+    height: 200px;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px black;
+    justify-content: center;
+    border-right: 2px solid gray;
+    transform: translateY(-20%);
+    background-color: white;
+    box-shadow: 3px 3px 3px 2px #30009f;
+}
+
+.form .button {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #50ff;
+    font-family: sans-serif;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid #30009f;
+    border-top: 1px solid #30009f;
+    border-left: 1px solid #30009f;
+    border-right: 3px solid #30009f;
+    font-family: Poppins;
+    transition: .5s;
+}
+
+/* .simp {
     width: 360px;
     height: 200px;
     display: flex;
@@ -89,23 +129,6 @@ span:hover {
 }
 
 .form .button {
-    margin-top: 10px;
-    padding: 5px;
-    border: none;
-    background-color: #50ff;
-    font-family: sans-serif;
-    border-radius: 7px;
-    color: white;
-    font-weight: bold;
-    border-bottom: 3px solid #30009f;
-    border-top: 1px solid #30009f;
-    border-left: 1px solid #30009f;
-    border-right: 3px solid #30009f;
-    font-family: Poppins;
-    transition: .5s;
-}
-
-.form .alert {
     margin-top: 10px;
     padding: 5px;
     border: none;
@@ -241,4 +264,4 @@ input:checked+.slider:before {
 .form input {
     width: 250px;
     height: 35px;
-}
+} */
